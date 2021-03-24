@@ -1,0 +1,46 @@
+button{
+    background-color: rgb(206, 214, 208);
+}
+button:hover{
+    background-color: teal;
+    color: whitesmoke;
+}
+h1,h2{
+    font-weight: normal;
+}
+h1{
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: Courier New, monospace;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    line-height: 2;
+}
+#signup{
+    background-color: #394648;
+    color: ghostwhite;
+}
+#signup:hover{
+    background-color: ghostwhite;
+    color: rgb(117, 31, 31);
+}
+.post .tags{
+    color: gray;
+    font-size: 16px;
+}
+.post .tags:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.post .link{
+    font-size: 30px;
+}
+input[type="password"]{
+    color: #20A4F3;
+}

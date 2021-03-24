@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Subscription Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <!-- The name attribute is a variable to which the values are stored in as they are being submitted -->
+            <p><label for="firstname">First name: </label><input type="text" id="firstname" placeholder="First Name"
+                    name="firstname" required></p>
+            <p><label for="surname">Surname: </label><input type="text" id="surname" placeholder="Surname"
+                    name="surname" required></p>
+            <p><label for="email">Email address: </label><input type="email" id="email" placeholder="email address"
+                    name="email" required></p>
+            <p><label for="password1">Enter password: </label><input type="password" id="password1"
+                    placeholder="password" name="password1" required minlength="5"></p>
+            <p><label for="password2">Re-enter password: </label><input type="password" id="password2"
+                    placeholder="password" name="password2" required minlength="5"></p>
+            <p><label for="gender">Gender: </label>
+                <select name="gender" id="gender" required>
+                    <option value="">"Please enter an option"</option>
+                    <option value="ml">Male</option>
+                    <option value="fe">Female</option>
+                </select>
+            </p>
+            <p>
+                <label for="phone">Enter phone number: </label>
+                <select name="code" id="phone">
+                    <option value="+254">+254</option>
+                    <option value="+255">+255</option>
+                    <option value="+256">+256</option>
+                </select>
+                <input type="tel" name="ph_num" id="phone" placeholder="Phone number" required>
+            </p>
+            <p><input type="checkbox" id="subscribe" name="checkbox"><label for="subscribe">Subscribe to weekly
+                    newsletter</label></p>
+            <!-- Use of radio buttons -->
+            <div>
+                <p>Breed interested in: </p>
+                <input type="radio" name="type" id="broiler" value="br"><label for="broiler">Broiler</label><br>
+                <input type="radio" name="type" id="layer" value="la" required><label for="layer">Layer</label><br>
+                <input type="radio" name="type" id="kienyeji" value="ki"><label for="kienyeji">Kienyeji</label><br>
+            </div>
+            <!-- textarea allows the user to input suggestions -->
+            <p>
+            <div><label for="feedback">Any feedback:</label></div>
+            <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="Submit feedback"></textarea>
+            </p>
+            <!-- A button inside a form redirects to the link provided by the form -->
+            <p><button>Submit</button></p>
+            <!-- file:///C:/Users/mwang/OneDrive/Documents/Web%20Developer%20Bootcamp/HTML-%20The%20Essentials/Subscribe.html?firstname=Eugene+&surname=Mwangi&email=mwangieugen80%40gmail.com&password1=mwash&password2=mwash&checkbox=on -->
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="Lesson1.html">Go back home</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
+
+<!-- file:///C:/Users/mwang/OneDrive/Documents/Web%20Developer%20Bootcamp/HTML-%20The%20Essentials/Subscribe.html?firstname=Eugene+&surname=Mwangi&email=mwangieugen80%40gmail.com&password1=mwash&password2=mwash&checkbox=on&type=ki -->
