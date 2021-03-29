@@ -1,5 +1,6 @@
 button{
     background-color: rgb(206, 214, 208);
+    border-radius: 5px;
 }
 button:hover{
     background-color: teal;
@@ -30,6 +31,17 @@ p{
     background-color: ghostwhite;
     color: rgb(117, 31, 31);
 }
+/* Box Model */
+.post{
+    width: 70%;
+    height: 100%;
+    border: 1px solid #becece;
+    box-sizing: border-box;
+    border-left-width: 3px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0 0 5px 5px;
+    margin: 0 0 20px 0;
+}
 .post .tags{
     color: gray;
     font-size: 16px;
@@ -38,9 +50,24 @@ p{
     color: blue;
     text-decoration: underline;
 }
+/* Child Combinator */
 .post .link{
     font-size: 30px;
 }
 input[type="password"]{
     color: #20A4F3;
 }
+input[type="radio"]:checked{
+    box-shadow: 0 0 0 1px rgb(85, 26, 4);
+}
+/* Adjacent Combinator */
+input[type="radio"]:checked + label{
+    color:rgb(226, 3, 3);
+}
+.post:nth-of-type(2n-1){
+    background-color: #E5E7E6;
+}
+p::selection{
+    background-color: #fcbf49;
+}
+
