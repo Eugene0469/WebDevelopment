@@ -1,6 +1,6 @@
 button{
     background-color: rgb(206, 214, 208);
-    border-radius: 5px;
+    border-radius: 1em;
 }
 button:hover{
     background-color: teal;
@@ -69,5 +69,9 @@ input[type="radio"]:checked + label{
 }
 p::selection{
     background-color: #fcbf49;
+}
+
+.inlinefig{
+    margin: 0;
 }
 
