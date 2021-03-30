@@ -1,6 +1,7 @@
 button{
     background-color: rgb(206, 214, 208);
     border-radius: 1em;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 button:hover{
     background-color: teal;
@@ -47,7 +48,8 @@ p{
     font-size: 16px;
 }
 .post .tags:hover{
-    color: blue;
+    /* color: blue; */
+    font-weight: bold;
     text-decoration: underline;
 }
 /* Child Combinator */
@@ -58,7 +60,7 @@ input[type="password"]{
     color: #20A4F3;
 }
 input[type="radio"]:checked{
-    box-shadow: 0 0 0 1px rgb(85, 26, 4);
+    box-shadow: 0 0 0 1px rgba(85, 26, 4, 0.479);
 }
 /* Adjacent Combinator */
 input[type="radio"]:checked + label{
@@ -71,7 +73,16 @@ p::selection{
     background-color: #fcbf49;
 }
 
-.inlinefig{
+#rooster-fig{
+    display: inline-block;
+    width: 50%;
     margin: 0;
+}
+#rooster-par{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
 }
 
