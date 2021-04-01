@@ -1,0 +1,25 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav{
+    border-bottom: 2px solid #f1f1f1;
+    margin-left: calc(10%/6);
+    width: 30%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    padding:1.2em 0;
+    text-transform: uppercase;
+}
+nav>a{
+    text-decoration: none;
+}
+.imgHover{
+    border-radius: 5%;
+}
+.imgHover:hover{
+    transform: translateY(-7.5px);
+    /* box-shadow: x y blur spread */
+    box-shadow: 5px 5px 5px 5px rgb(139, 136, 136);
+}
