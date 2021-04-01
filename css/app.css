@@ -79,16 +79,34 @@ p::selection{
     background-color: #fcbf49;
 }
 
-#rooster-fig{
-    display: inline-block;
-    width: 50%;
+ /* #container figure{
+    width: 30%;
     margin: 0;
 }
-#rooster-par{
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    top: 0;
+#container p{
+    width: 60%;
+} */
+#container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.topnav{
+    overflow: hidden;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+.topnav a{
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(75, 48, 14);
+    text-align: center;
+}
+.topnav a:hover{
+    transform: translateY(-2px);
+    text-shadow: 1px 1px 5px rgb(151, 132, 113);
+}
