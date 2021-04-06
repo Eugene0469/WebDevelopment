@@ -1,6 +1,14 @@
 body{
     margin: 0 0 0 5px;
-
+}
+.main{
+    display: flex;
+}
+.main .sidebar{
+    flex: 1 2;
+}
+.main .maincontent{
+    flex: 2 1 800px;
 }
 button{
     background-color: rgb(206, 214, 208);
@@ -119,5 +127,4 @@ p::selection{
 .topnav form{
     padding: 14px 16px;
     align-self: flex-end;
-    flex-grow: 2;
 }
