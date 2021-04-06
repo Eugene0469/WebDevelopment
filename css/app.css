@@ -128,3 +128,17 @@ p::selection{
     padding: 14px 16px;
     align-self: flex-end;
 }
+@media (max-width: 967px){
+    .topnav{
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+        background-color: white;
+    }
+    .topnav form{
+        align-self: flex-start;
+    }
+    .topnav a, .topnav form{
+        padding: 0;
+    }
+}
