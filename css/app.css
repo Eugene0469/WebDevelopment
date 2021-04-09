@@ -1,7 +1,7 @@
 body{
     background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-pale-goldenrod-solid-color-background.jpg");
     font-family: 'New Tegomin', 'Montserrat',serif;
-    margin: 0 0 0 5px;
+    margin: 0;
 }
 .main{
     display: flex;
@@ -10,7 +10,7 @@ body{
     flex: 1 2;
 }
 .main .maincontent{
-    flex: 2 1 800px;
+    flex: 2 1 600px;
 }
 button{
     background-color: rgb(206, 214, 208);
