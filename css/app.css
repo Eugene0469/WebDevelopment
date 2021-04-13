@@ -107,6 +107,7 @@ p::selection{
 .topnav{
     background-color: antiquewhite;
     height: 50px;
+    width: 100%;
     position: sticky;
     top: 0;
     margin: 0;
@@ -130,7 +131,7 @@ p::selection{
     padding: 14px 16px;
     align-self: flex-end;
 }
-@media (max-width: 967px){
+@media only screen and (max-width: 967px){
     .topnav{
         display: flex;
         flex-wrap: nowrap;
